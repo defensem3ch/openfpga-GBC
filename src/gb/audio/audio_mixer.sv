@@ -82,7 +82,7 @@ module audio_mixer #(
   //! Low Pass Filter
   //! ------------------------------------------------------------------------
   reg [31:0] aflt_rate = 32'd14112000;  // Sampling Frequency
-  reg [39:0] acx = 40'd480930;  // Base gain
+    reg [39:0] acx = 40'd480934;  // Base gain
   reg [ 7:0] acx0 = 8'd3;  // gain scale for X0
   reg [ 7:0] acx1 = 8'd3;  // gain scale for X1
   reg [ 7:0] acx2 = 8'd1;  // gain scale for X2
